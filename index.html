@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>[NOME DA LOJA] — Ultimate Creative Bundle</title>
+  <meta name="description" content="Milhares de recursos para edição de vídeo e design gráfico. Escolha o seu pack e comece a criar.">
+  <meta property="og:title" content="[NOME DA LOJA] — Ultimate Creative Bundle">
+  <meta property="og:description" content="Packs de edição de vídeo e design gráfico com acesso digital imediato.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/ultimate-bundle.jpg">
+  <meta name="theme-color" content="#080808">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#080808;--panel:#121212;--panel2:#171717;--white:#f7f7f7;--muted:#aaa;--line:#292929;--yellow:#ffd21f;--gold:#f5b301;--red:#ed3838;--max:1160px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--white);font-family:Inter,Arial,sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}button{font:inherit}img{max-width:100%;display:block}h1,h2,h3,h4{font-family:Poppins,Inter,sans-serif;line-height:1.15;margin:0 0 16px}h1{font-size:clamp(2.25rem,6vw,4.7rem);font-weight:900;letter-spacing:-.055em}h2{font-size:clamp(1.8rem,4vw,3rem);font-weight:800;letter-spacing:-.035em}h3{font-size:1.25rem}p{margin:0 0 16px;color:#c4c4c4}.container{width:min(var(--max),calc(100% - 36px));margin:auto}.section{padding:82px 0}.eyebrow{color:var(--yellow);font-size:.76rem;text-transform:uppercase;letter-spacing:.16em;font-weight:800;margin-bottom:14px}.section-head{max-width:760px;margin:0 auto 42px;text-align:center}.section-head p{font-size:1.04rem}.accent{color:var(--yellow)}.gold{color:var(--gold)}.muted{color:var(--muted)}.center{text-align:center}
+    .topbar{position:sticky;top:0;z-index:50;background:#111;border-bottom:1px solid #333;padding:9px 12px;text-align:center;font-size:.78rem;font-weight:800;letter-spacing:.04em}.topbar strong{color:var(--yellow)}.timer{font-variant-numeric:tabular-nums;color:#fff;margin-left:5px}
+    .hero{padding:70px 0 58px;overflow:hidden;background:radial-gradient(ellipse at 75% 35%,rgba(255,210,31,.12),transparent 38%),linear-gradient(180deg,#0b0b0b,#080808)}.hero-grid{display:grid;gap:38px;align-items:center}.hero-copy p{font-size:1.08rem;max-width:650px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0 18px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:15px 22px;border-radius:12px;background:linear-gradient(110deg,#ffe36a,#f5b301);color:#111;font-weight:900;border:1px solid #ffe06a;box-shadow:0 8px 30px #f5b30126;transition:transform .2s,box-shadow .2s;cursor:pointer}.btn:hover{transform:translateY(-3px);box-shadow:0 12px 35px #f5b30145}.btn.pulse{animation:pulse 2.3s infinite}.btn-outline{background:transparent;color:#fff;border:1px solid #555;box-shadow:none}.btn-small{padding:12px 15px;font-size:.9rem}.trustline{font-size:.83rem;color:#aaa}.product-stage{position:relative;max-width:500px;margin:auto;perspective:1000px}.product-box{position:relative;transform:rotateY(-12deg) rotateX(4deg);filter:drop-shadow(0 28px 26px #000);transition:transform .4s}.product-box:hover{transform:rotateY(-4deg) rotateX(0) translateY(-5px)}.product-box img{width:100%;border-radius:16px;border:1px solid #48402a;background:#171717;aspect-ratio:1/1;object-fit:cover}.float-tag{position:absolute;right:-8px;bottom:18px;background:#151515;border:1px solid #65521c;border-radius:12px;padding:12px 16px;box-shadow:0 15px 35px #000}.float-tag b{color:var(--gold);display:block;font-family:Poppins}
+    .software{border-block:1px solid var(--line);padding:25px 0;background:#0d0d0d}.software-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.software-pill{border:1px solid #303030;background:#141414;border-radius:999px;padding:9px 15px;color:#ddd;font-size:.85rem;font-weight:700}
+    .stats-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.stat{padding:18px 12px;text-align:center;border:1px solid var(--line);border-radius:14px;background:linear-gradient(145deg,#171717,#101010)}.stat b{display:block;color:var(--yellow);font:800 clamp(1.3rem,3vw,2rem) Poppins}.stat span{font-size:.78rem;color:#bbb}
+    .feature-grid{display:grid;gap:18px}.feature{display:grid;gap:22px;align-items:center;padding:20px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(145deg,#151515,#0e0e0e)}.feature:nth-child(even) .feature-media{order:0}.feature-media img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:13px;background:#1d1d1d;border:1px solid #333}.feature ul{padding-left:19px;color:#c4c4c4;margin:14px 0}.feature li{margin:5px 0}.mini-label{display:inline-block;padding:5px 9px;border:1px solid #574914;border-radius:999px;color:var(--yellow);font-size:.72rem;font-weight:800;margin-bottom:10px}
+    .vsl-grid{display:grid;gap:16px}.vsl-card{padding:12px;background:var(--panel);border:1px solid var(--line);border-radius:16px}.vsl-card video{width:100%;aspect-ratio:16/9;background:#000;border-radius:10px;display:block}.vsl-card h3{margin:13px 2px 3px}.vsl-card p{font-size:.86rem;margin:0 2px}
+    .accordion{border:1px solid var(--line);border-radius:14px;background:#111;margin:10px 0;overflow:hidden}.accordion summary{list-style:none;cursor:pointer;padding:17px 18px;display:flex;align-items:center;gap:12px;font-weight:800}.accordion summary::-webkit-details-marker{display:none}.accordion summary:after{content:"＋";margin-left:auto;color:var(--yellow);font-size:1.2rem}.accordion[open] summary:after{content:"−"}.acc-icon{font-size:1.25rem}.count{font-size:.72rem;color:#aaa;font-weight:600;margin-left:5px}.accordion-content{padding:0 18px 18px;color:#bbb;border-top:1px solid #252525}.item-list{display:flex;flex-wrap:wrap;gap:8px;padding-top:15px}.item{border:1px solid #303030;background:#181818;border-radius:8px;padding:6px 9px;font-size:.78rem}
+    .offer-grid{display:grid;gap:18px;align-items:stretch}.offer{position:relative;padding:25px;border:1px solid #363636;border-radius:20px;background:linear-gradient(150deg,#171717,#0e0e0e);display:flex;flex-direction:column}.offer.ultimate{border:1px solid var(--gold);box-shadow:0 0 0 1px #f5b30135,0 20px 65px #f5b30116;transform:none}.ribbon{position:absolute;top:-13px;left:50%;transform:translateX(-50%);white-space:nowrap;background:linear-gradient(90deg,#ffe36a,#f5b301);color:#111;padding:6px 15px;border-radius:999px;font-size:.7rem;font-weight:900;letter-spacing:.06em}.price{font:900 3rem Poppins;color:var(--gold);line-height:1.1;margin:14px 0 4px}.old-price{color:#888;text-decoration:line-through;font-size:1rem}.offer-sub{font-size:.87rem;color:#aaa}.checklist{padding:0;list-style:none;margin:20px 0;flex:1}.checklist li{padding:8px 0;border-bottom:1px solid #292929;color:#ddd;font-size:.9rem}.checklist li:before{content:"✓";color:var(--yellow);font-weight:900;margin-right:9px}.offer .btn{width:100%;margin-top:8px}.benefits-box{margin:8px 0 18px;padding:15px;border:1px solid #3a321d;border-radius:13px;background:linear-gradient(145deg,#1b180e,#111)}.benefits-box h4{font-size:.88rem;color:var(--yellow);margin:0 0 9px}.benefits-box ul{list-style:none;padding:0;margin:0}.benefits-box li{display:flex;gap:8px;align-items:flex-start;color:#ddd;font-size:.83rem;padding:5px 0}.benefits-box li:before{content:"✓";color:var(--gold);font-weight:900}.benefits-box.ultimate-benefits{border-color:#80621b;background:linear-gradient(145deg,#29200a,#12100a)}.comparison{margin:28px auto 0;max-width:900px;border:1px solid #373737;border-radius:16px;overflow:hidden;background:#111}.comparison h3{padding:20px 20px 5px;margin:0}.comparison table{width:100%;border-collapse:collapse;font-size:.86rem}.comparison th,.comparison td{padding:12px 15px;text-align:left;border-bottom:1px solid #292929}.comparison th{color:var(--gold);font-family:Poppins;background:#171717}.comparison td:last-child,.comparison th:last-child{color:#ffe27a;font-weight:700}.comparison tr:last-child td{border-bottom:0}.value-callout{display:inline-block;margin:8px 0;padding:6px 10px;border-radius:8px;background:#33270a;color:#ffe27a;font-size:.76rem;font-weight:800}.secure{display:flex;gap:9px;align-items:center;justify-content:center;flex-wrap:wrap;font-size:.75rem;color:#aaa;margin-top:14px}.pay-logos{font-weight:900;color:#eee;letter-spacing:.04em}.pay-logos span:first-child{color:#4b9bff}.pay-logos span:last-child{color:#ed625a}
+    .bonus-grid{display:grid;gap:14px}.bonus{padding:16px;background:var(--panel);border:1px solid #3c3218;border-radius:16px}.bonus img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;background:#222;margin-bottom:13px}.bonus .value{text-decoration:line-through;color:#888;font-size:.85rem}.bonus b{color:var(--gold)}.total-value{margin-top:24px;padding:22px;border:1px solid var(--gold);border-radius:16px;background:#18140a;text-align:center}.total-value strong{font:800 clamp(1.6rem,4vw,2.4rem) Poppins;color:var(--gold)}
+    .audience-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.audience{background:#141414;border:1px solid var(--line);border-radius:13px;padding:17px;text-align:center}.audience span{display:block;font-size:1.5rem;margin-bottom:5px}.audience b{font-size:.9rem}
+    .reviews-grid{display:grid;gap:12px}.review{padding:18px;border:1px solid var(--line);border-radius:14px;background:#121212}.stars{color:var(--gold);letter-spacing:2px}.review p{font-size:.88rem;margin:8px 0}.review b{font-size:.88rem}.review small{color:#999;display:block}.review-note{font-size:.8rem;color:#888;text-align:center;margin-top:14px}
+    .guarantee{display:flex;gap:20px;align-items:center;justify-content:center;flex-wrap:wrap;padding:28px;border:1px solid #574914;border-radius:18px;background:linear-gradient(120deg,#17140b,#111)}.guarantee-icon{font-size:3rem}.guarantee p{margin:0}
+    .faq{max-width:850px;margin:auto}.faq details{border-bottom:1px solid #303030;padding:17px 0}.faq summary{cursor:pointer;font-weight:800;list-style:none}.faq summary:after{content:"＋";float:right;color:var(--yellow)}.faq details[open] summary:after{content:"−"}.faq p{padding:12px 24px 0 0;margin:0;font-size:.92rem}
+    .scarcity{padding:20px;border:1px solid #512727;background:#170d0d;border-radius:16px;max-width:760px;margin:0 auto 24px}.scarcity-top{display:flex;justify-content:space-between;gap:12px;font-size:.86rem;font-weight:800}.progress{height:10px;background:#392020;border-radius:99px;overflow:hidden;margin:12px 0 8px}.progress span{display:block;height:100%;width:0;background:linear-gradient(90deg,#b91c1c,#ff5656);border-radius:99px;transition:width .4s}.scarcity small{color:#d4a0a0}
+    footer{border-top:1px solid var(--line);padding:40px 0 100px;background:#0b0b0b}footer .footgrid{display:grid;gap:22px}footer p,footer a{font-size:.85rem;color:#999}footer a:hover{color:var(--yellow)}.footlinks{display:flex;gap:16px;flex-wrap:wrap}.sticky-mobile{display:none;position:fixed;bottom:0;left:0;right:0;z-index:60;background:#111e;border-top:1px solid #444;padding:10px 12px;backdrop-filter:blur(12px);align-items:center;justify-content:space-between;gap:10px}.sticky-mobile b{color:var(--gold);font-family:Poppins;font-size:1.1rem}.sticky-mobile small{display:block;color:#bbb;font-size:.68rem}.sticky-mobile .btn{padding:11px 14px;font-size:.82rem;white-space:nowrap}
+    .modal{display:none;position:fixed;inset:0;background:#000c;z-index:100;align-items:center;justify-content:center;padding:20px}.modal.show{display:flex}.modal-box{position:relative;max-width:460px;width:100%;padding:30px;border:1px solid var(--gold);border-radius:20px;background:#151515;text-align:center;box-shadow:0 20px 80px #000}.modal-box h2{font-size:1.8rem}.modal-close{position:absolute;right:13px;top:8px;background:none;border:0;color:#aaa;font-size:1.7rem;cursor:pointer}.modal-box p{font-size:.92rem}
+    .reveal{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease}.reveal.visible{opacity:1;transform:none}
+    @keyframes pulse{0%,100%{box-shadow:0 0 0 0 #f5b30155}50%{box-shadow:0 0 0 9px #f5b30100}}
+    @media(min-width:650px){.hero-grid{grid-template-columns:1.08fr .92fr}.stats-grid{grid-template-columns:repeat(4,1fr)}.feature{grid-template-columns:1fr 1fr;padding:26px}.feature:nth-child(even) .feature-media{order:2}.offer-grid{grid-template-columns:1fr 1fr}.offer.ultimate{transform:scale(1.025)}.bonus-grid{grid-template-columns:repeat(3,1fr)}.audience-grid{grid-template-columns:repeat(3,1fr)}.reviews-grid{grid-template-columns:repeat(2,1fr)}.vsl-grid{grid-template-columns:repeat(2,1fr)}footer .footgrid{grid-template-columns:2fr 1fr 1fr}}
+    @media(min-width:950px){.stats-grid{grid-template-columns:repeat(5,1fr)}.reviews-grid{grid-template-columns:repeat(3,1fr)}.audience-grid{grid-template-columns:repeat(6,1fr)}}
+    @media(max-width:649px){.section{padding:60px 0}.hero{padding:52px 0 42px}.hero-actions .btn{width:100%}.sticky-mobile{display:flex}.topbar{font-size:.68rem}.product-box{transform:none}.float-tag{right:0}.stats-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+  </style>
+</head>
+<body>
+  <script>
+    /* ========================= CONFIG — EDITE ESTA ÁREA ========================= */
+    const CONFIG = {
+      NOME_LOJA: "Full Pack Bundle",
+      DATA_FIM: "2026-12-01T23:59:59+02:00", // Formato ISO com fuso horário. Altere para a data real.
+      VAGAS_RESTANTES: 25, // Atualize manualmente apenas com o número REAL de bónus disponíveis.
+      VAGAS_TOTAIS: 50,     // Total real de vagas da campanha; usado apenas para a barra de progresso.
+      GARANTIA_7_DIAS: false, // Altere para true APENAS se oferecer realmente esta garantia.
+      CHECKOUT_ESSENCIAL: "https://checkout.escalepay.com/7066013",
+      CHECKOUT_ULTIMATE: "https://checkout.escalepay.com/8553445",
+      PRECO_ESSENCIAL: "25 USD",
+      PRECO_ULTIMATE: "35 USD",
+      MOSTRAR_AVALIACAO_MEDIA: false, // Ative apenas quando tiver avaliações verificáveis.
+      AVALIACAO_MEDIA: "4.9/5",
+      /* Ajuste estes números para refletirem exatamente os ficheiros entregues. */
+      ESTATISTICAS: [
+        ["8.000+", "Final Cut elements"],["15.000+", "Transições"],["4.500+", "LUTs"],
+        ["12.500+", "Sons"],["15.000+", "After Effects"],["15.000+", "Premiere"],
+        ["130.000+", "Text effects"],["10.000+", "Infográficos"],["7.000+", "Illustrator"],
+        ["50.000+", "T-shirt designs"],["135.000+", "Lightroom presets"],["50.000+", "Logos"],
+        ["100.000+", "Photoshop"]
+      ],
+      /* Para cada VSL, cole o Base64 do MP4 entre as aspas. Exemplo: "data:video/mp4;base64,AAAA...".
+         ATENÇÃO: embutir 4 vídeos pode deixar o HTML muito pesado. Uma alternativa sem YouTube é
+         manter MP4 locais na pasta /videos e usar src="videos/vsl-1.mp4". */
+      VSL_BASE64: ["", "", "", ""]
+    };
+    /* ======================= FIM DA CONFIGURAÇÃO ======================= */
+  </script>
+
+  <div class="topbar">⚡ OFERTA DE LANÇAMENTO TERMINA EM <strong class="timer" id="topTimer">00:00:00</strong></div>
+
+  <header class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <div class="eyebrow">O arsenal criativo definitivo</div>
+        <h1>+1.000.000 de recursos para criar <span class="accent">vídeos e designs profissionais</span></h1>
+        <p>Eleve as suas edições e projetos gráficos com packs de templates, efeitos, plugins, sons e recursos criativos num só lugar.</p>
+        <div class="hero-actions">
+          <a class="btn pulse" href="#ofertas">QUERO ACEDER AOS PACKS <span>→</span></a>
+          <a class="btn btn-outline" href="#conteudo">VER O QUE ESTÁ INCLUÍDO</a>
+        </div>
+        <div class="trustline">⚡ Acesso digital após confirmação do pagamento · Pagamento por cartão bancário</div>
+      </div>
+      <div class="product-stage reveal">
+        <!-- Substitua pela capa real do Ultimate Bundle. -->
+        <div class="product-box"><img src="teste.png" alt="Capa do Ultimate Creative Bundle" onerror="this.style.background='linear-gradient(135deg,#28200b,#111 55%,#49380c)';this.alt='Placeholder para a capa Ultimate Bundle'"></div>
+        <div class="float-tag"><b>ULTIMATE BUNDLE</b><small>O kit completo para criar</small></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="software">
+    <div class="container"><div class="software-row">
+      <span class="software-pill">Photoshop</span><span class="software-pill">Illustrator</span><span class="software-pill">After Effects</span><span class="software-pill">Premiere Pro</span><span class="software-pill">Lightroom</span><span class="software-pill">Final Cut</span><span class="software-pill">DaVinci Resolve</span><span class="software-pill">Canva</span>
+    </div></div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal"><div class="eyebrow">Uma biblioteca criativa</div><h2>Mais recursos. <span class="accent">Mais possibilidades.</span></h2><p>Explore uma coleção de recursos para acelerar o seu fluxo de trabalho. Confirme e ajuste as quantidades abaixo de acordo com o conteúdo final do pack.</p></div>
+      <div class="stats-grid" id="statsGrid"></div>
+    </div>
+  </section>
+
+  <section class="section" id="categorias">
+    <div class="container">
+      <div class="section-head reveal"><div class="eyebrow">Do conceito à criação</div><h2>Ferramentas para dar vida às suas <span class="accent">ideias</span></h2><p>Recursos para edição, motion design, efeitos visuais, áudio e design gráfico.</p></div>
+      <div class="feature-grid">
+        <article class="feature reveal"><div><span class="mini-label">MOTION DESIGN</span><h3>After Effects</h3><p>Crie animações, intros, flyers animados e composições visuais com uma biblioteca de plugins e templates.</p><ul><li>Flyers, shapes e icons animados</li><li>Plugins e extensões de motion</li><li>Mockups, visualizers e efeitos</li><li>Sports, YouTube e Stories</li></ul></div><div class="feature-media"><img src="After effets.png" alt="Capa do pack After Effects"></div></article>
+        <article class="feature reveal"><div><span class="mini-label">EDIÇÃO DE VÍDEO</span><h3>Premiere Pro</h3><p>Ganhe velocidade na edição com transições, títulos, presets, posters e efeitos de vídeo.</p><ul><li>Transições e motion packs</li><li>Títulos e ícones animados</li><li>Presets e plugins</li><li>Poster e video effects packs</li></ul></div><div class="feature-media"><img src="Premier pro.png" alt="Capa do pack Premiere Pro"></div></article>
+        <article class="feature reveal"><div><span class="mini-label">EFEITOS VISUAIS</span><h3>VFX Effects</h3><p>Adicione impacto cinematográfico às suas produções com efeitos de luz, partículas, energia e fantasia.</p><ul><li>Electric, Sci-Fi e Cyber City</li><li>Destruction, Dark Magic e Slime</li><li>Rain, Space e Lens Distortions</li><li>Action, Cinepack e Cartoon Laser FX</li></ul></div><div class="feature-media"><img src="Fx.jpg" alt="Capa do pack de efeitos VFX"></div></article>
+        <article class="feature reveal"><div><span class="mini-label">ÁUDIO</span><h3>Sound Effects</h3><p>Encontre sons para criar ambiente, ritmo e intensidade nos seus vídeos e projetos.</p><ul><li>Trailers, horror e cinematic hits</li><li>Veículos, natureza e animais</li><li>Armas, impactos e maquinaria</li><li>Magic, sci-fi e ambientes</li></ul></div><div class="feature-media"><img src="sound fx.png" alt="Capa do pack de efeitos sonoros"></div></article>
+        <article class="feature reveal"><div><span class="mini-label">DESIGN GRÁFICO</span><h3>Pack Design</h3><p>Crie peças visuais com templates, mockups, texturas, elementos e recursos editáveis.</p><ul><li>Social media, flyers e logos</li><li>Mockups, canecas e PNGs</li><li>Brushes, overlays e texturas</li><li>Elementos para Corel e Photoshop</li></ul></div><div class="feature-media"><img src="pack design.png" alt="Capa do pack de design gráfico"></div></article>
+        <article class="feature reveal"><div><span class="mini-label">MEGA BIBLIOTECA</span><h3>500GB Mega Bundle</h3><p>Apresente aqui a coleção de recursos extra incluída na sua oferta, com a descrição e o tamanho reais do conteúdo disponibilizado.</p><ul><li>Biblioteca de recursos digitais</li><li>Conteúdo organizado por categorias</li><li>Consulte os formatos e requisitos antes da compra</li></ul></div><div class="feature-media"><img src="Fx.jpg" alt="Capa do 500GB Mega Bundle"></div></article>
+        <article class="feature reveal"><div><span class="mini-label">RECURSOS EDITÁVEIS</span><h3>Photoshop Full Pack</h3><p>Uma coleção de backgrounds, PSDs, mockups, GIFs, ícones e ferramentas para acelerar os seus designs.</p><ul><li>Backgrounds e arquivos PSD</li><li>Mockups e cartões de visita</li><li>Banners, GIFs e ícones</li><li>Ferramentas de edição</li></ul></div><div class="feature-media"><img src="Caixa Premium de Assets Photoshop.png" alt="Capa do Photoshop Full Pack"></div></article>
+        <article class="feature reveal"><div><span class="mini-label">VETORES</span><h3>Super Pack Illustrator</h3><p>Elementos vetoriais e templates para criar identidades, flyers, cartões e materiais gráficos.</p><ul><li>Vetores e ícones</li><li>Templates de flyers e logotipos</li><li>Cartões de visita e banners</li><li>Layouts de certificados</li></ul></div><div class="feature-media"><img src="Caixa Premium Ultimate Bundle 50.000+ Logos.png" alt="Capa do Super Pack Illustrator"></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="vsl" style="background:#0d0d0d">
+    <div class="container">
+      <div class="section-head reveal"><div class="eyebrow">Veja por dentro</div><h2>Conheça os packs em <span class="accent">vídeo</span></h2><p>Assista às apresentações e veja exemplos dos recursos incluídos.</p></div>
+      <div class="vsl-grid">
+        <article class="vsl-card reveal"><video controls playsinline preload="metadata" id="vsl1" aria-label="Vídeo de apresentação 1"></video><h3>Apresentação do Bundle</h3><p>Conheça a biblioteca criativa.</p></article>
+        <article class="vsl-card reveal"><video controls playsinline preload="metadata" id="vsl2" aria-label="Vídeo de apresentação 2"></video><h3>Capcut Pack</h3><p>Veja recursos para edição e motion.</p></article>
+        <article class="vsl-card reveal"><video controls playsinline preload="metadata" id="vsl3" aria-label="Vídeo de apresentação 3"></video><h3>VFX e Pack sounds</h3><p>Explore os recursos gráficos e efeitos.</p></article>
+        <article class="vsl-card reveal"><video controls playsinline preload="metadata" id="vsl4" aria-label="Vídeo de apresentação 4"></video><h3>Oferta e acesso</h3><p>Descubra como adquirir o seu pack.</p></article>
+      </div>
+      <p class="center muted" style="font-size:.78rem;margin-top:16px">Os vídeos são carregados a partir dos dados incorporados no HTML ou de ficheiros MP4 locais, conforme a configuração.</p>
+    </div>
+  </section>
+
+  <section class="section" id="conteudo">
+    <div class="container">
+      <div class="section-head reveal"><div class="eyebrow">Biblioteca de conteúdo</div><h2>Veja tudo o que pode receber</h2><p>Abra cada categoria para consultar os recursos listados. A lista detalhada do Ultimate é apresentada abaixo.</p></div>
+      <div id="accordionList"></div>
+    </div>
+  </section>
+
+  <section class="section" id="ofertas">
+    <div class="container">
+      <div class="section-head reveal"><div class="eyebrow">Escolha o seu acesso</div><h2>Invista no seu próximo <span class="accent">nível criativo</span></h2><p>Escolha o pack que melhor corresponde ao seu fluxo de trabalho.</p></div>
+      <div class="scarcity reveal">
+        <div class="scarcity-top"><span>🎁 Vagas de bónus disponíveis</span><strong id="vacancyText">—</strong></div>
+        <div class="progress"><span id="vacancyBar"></span></div>
+        <small>Quando o contador chegar a zero, o preço volta a 97/197 USD e os bónus saem. Atualize este contador apenas com dados reais.</small>
+      </div>
+      <div class="offer-grid">
+        <article class="offer reveal">
+          <span class="mini-label">PARA COMEÇAR</span><h3>PACK ESSENCIAL</h3><div class="old-price">97 USD</div><div class="price">25 <small style="font-size:1rem">USD</small></div><div class="offer-sub">Recursos essenciais para edição e design.</div>
+          <ul class="checklist"><li><b>After Effects:</b> flyers, shapes, icons, neon, stories, logos, YouTube e sports templates.</li><li><b>Premiere Pro:</b> transições, títulos animados, poster e video effects.</li><li><b>Pack Design:</b> social media, logos, flyers, texturas, mockups e overlays.</li><li><b>Pack Sounds:</b> coleção básica de efeitos sonoros.</li></ul>
+          <div class="benefits-box"><h4>O QUE VAIS CONSEGUIR FAZER</h4><ul><li>Criar vídeos com transições e títulos mais apelativos.</li><li>Desenvolver flyers, posts e materiais para redes sociais.</li><li>Dar mais personalidade aos teus projetos com efeitos e sons.</li><li>Reduzir o tempo de produção usando recursos prontos para personalizar.</li></ul></div>
+          <a class="btn" id="essentialCheckout" href="https://checkout.escalepay.com/7066013" target="_blank" rel="noopener">QUERO ESTE PACK →</a>
+          <div class="secure">🔒 Pagamento 100% seguro · Acesso imediato por email após a compra</div>
+          <div class="secure pay-logos"><span>VISA</span> · <span>Mastercard</span></div>
+        </article>
+        <article class="offer ultimate reveal">
+          <span class="ribbon">MAIS ESCOLHIDO</span><span class="mini-label">ACESSO COMPLETO</span><h3>PACK ULTIMATE</h3><div class="old-price">197 USD</div><div class="price">35 <small style="font-size:1rem">USD</small></div><div class="offer-sub">Tudo do Essencial + biblioteca expandida e 3 bónus.</div>
+          <ul class="checklist"><li>Tudo o que está incluído no Pack Essencial.</li><li>After Effects e Premiere Pro — coleção expandida de plugins e presets.</li><li>Biblioteca completa de VFX e efeitos sonoros.</li><li>Pack Design, Photoshop Full Pack e Illustrator Super Pack.</li><li>3 bónus exclusivos incluídos nesta oferta.</li></ul>
+          <div class="value-callout">POR APENAS +10 USD, RECEBES MUITO MAIS</div>
+          <div class="benefits-box ultimate-benefits"><h4>O QUE VAIS CONSEGUIR FAZER</h4><ul><li>Produzir vídeos com efeitos visuais e acabamentos mais elaborados.</li><li>Ter mais opções criativas para projetos de clientes e redes sociais.</li><li>Criar e personalizar artes no Photoshop e Illustrator.</li><li>Montar conteúdos com uma biblioteca mais ampla de presets, VFX e sons.</li><li>Ganhar tempo em diferentes etapas do teu processo criativo.</li><li>Usar os 3 bónus para ampliar as tuas opções de criação e aprendizagem.</li></ul></div>
+          <a class="btn pulse" id="ultimateCheckout" href="https://checkout.escalepay.com/8553445" target="_blank" rel="noopener">QUERO ESTE PACK →</a>
+          <div class="secure">🔒 Pagamento 100% seguro · Acesso imediato por email após a compra</div>
+          <div class="secure pay-logos"><span>VISA</span> · <span>Mastercard</span></div>
+        </article>
+      </div>
+      <div class="comparison reveal">
+        <h3>Qual é o pack ideal para ti?</h3>
+        <div style="overflow-x:auto"><table><thead><tr><th>Benefício / Recurso</th><th>Essencial</th><th>Ultimate</th></tr></thead><tbody>
+          <tr><td>After Effects e Premiere Pro</td><td>✓</td><td>✓ Biblioteca expandida</td></tr>
+          <tr><td>Design para redes sociais e flyers</td><td>✓</td><td>✓</td></tr>
+          <tr><td>Efeitos sonoros</td><td>Básico</td><td>Completo</td></tr>
+          <tr><td>VFX e efeitos cinematográficos</td><td>—</td><td>✓</td></tr>
+          <tr><td>Photoshop Full Pack</td><td>—</td><td>✓</td></tr>
+          <tr><td>Illustrator Super Pack</td><td>—</td><td>✓</td></tr>
+          <tr><td>3 bónus adicionais</td><td>—</td><td>✓</td></tr>
+          <tr><td><b>Preço</b></td><td><b>25 USD</b></td><td><b>35 USD</b></td></tr>
+        </tbody></table></div>
+      </div>
+      <div class="center muted" style="font-size:.78rem;margin-top:20px">Pagamento por cartão bancário através do checkout Escalepay. Confirme no checkout os métodos de pagamento disponíveis para o seu país.</div>
+    </div>
+  </section>
+
+  <section class="section" id="bonus" style="background:#0d0d0d">
+    <div class="container">
+      <div class="section-head reveal"><div class="eyebrow">Só no Pack Ultimate</div><h2>Receba também estes <span class="gold">bónus</span></h2><p>Três recursos adicionais para ampliar as suas possibilidades criativas.</p></div>
+      <div class="bonus-grid">
+        <article class="bonus reveal"><img src="Canva Bundle.jpg" alt="Capa Canva Premium Templates Pack"><h3>Bónus 1 — Canva Premium Templates</h3><span class="value">47 USD</span><p>Templates para criar conteúdos visuais com mais rapidez.</p><b>Incluído no Ultimate</b></article>
+        <article class="bonus reveal"><img src="Caixa Premium de Assets Photoshop.png" alt="Capa 60 em 1 PSD Templates Mega Pack"><h3>Bónus 2 — 60 em 1 PSD Templates</h3><span class="value">37 USD</span><p>Mega pack de templates PSD para personalizar os seus projetos.</p><b>Incluído no Ultimate</b></article>
+        <article class="bonus reveal"><img src="Guia Pratico.jpg" alt="Capa do guia rápido de vendas"><h3>Bónus 3 — Guia rápido em PDF</h3><span class="value">27 USD</span><p>“Como vender os seus serviços de edição”.</p><b>Incluído no Ultimate</b></article>
+      </div>
+      <div class="total-value reveal"><div>Valor total anunciado dos packs e bónus</div><strong>308 USD</strong><div>Hoje por apenas <strong>35 USD</strong></div><small style="color:#aaa">Verifique se a soma dos valores e os bónus correspondem exatamente à oferta final antes de publicar.</small></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal"><div class="eyebrow">Feito para criativos</div><h2>Para quem é este <span class="accent">bundle?</span></h2><p>Uma biblioteca versátil para diferentes perfis e níveis de experiência.</p></div>
+      <div class="audience-grid">
+        <div class="audience reveal"><span>🎬</span><b>Editores de vídeo</b></div><div class="audience reveal"><span>🎨</span><b>Designers gráficos</b></div><div class="audience reveal"><span>💼</span><b>Freelancers</b></div><div class="audience reveal"><span>📱</span><b>Criadores de conteúdo</b></div><div class="audience reveal"><span>🏢</span><b>Agências</b></div><div class="audience reveal"><span>🚀</span><b>Iniciantes</b></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="avaliacoes" style="background:#0d0d0d">
+    <div class="container">
+      <div class="section-head reveal"><div class="eyebrow">Experiências de clientes</div><h2>O que dizem os <span class="accent">criativos</span></h2><p>Substitua os exemplos abaixo por testemunhos autênticos e autorizados dos seus compradores.</p><div id="averageRating" class="gold" style="font-weight:900;font-size:1.25rem;display:none"></div></div>
+      <div class="reviews-grid" id="reviewsGrid"></div>
+      <div class="review-note">Modelos de depoimento — não são avaliações reais. Publique apenas depois de substituir por feedback verdadeiro e obter autorização.</div>
+    </div>
+  </section>
+
+  <section class="section" id="garantia">
+    <div class="container">
+      <div class="guarantee reveal"><div class="guarantee-icon">🛡️</div><div><h3 id="guaranteeTitle">Compra digital com informação clara</h3><p id="guaranteeText">Consulte os termos de compra, entrega e reembolso antes de finalizar o pagamento.</p></div></div>
+    </div>
+  </section>
+
+  <section class="section" id="faq" style="background:#0d0d0d">
+    <div class="container">
+      <div class="section-head reveal"><div class="eyebrow">Dúvidas frequentes</div><h2>Perguntas <span class="accent">frequentes</span></h2></div>
+      <div class="faq">
+        <details><summary>Como recebo os meus packs?</summary><p>Após a confirmação do pagamento, os dados de acesso e/ou instruções de entrega serão enviados para o email informado no checkout. Confirme o processo de entrega que está efetivamente configurado.</p></details>
+        <details><summary>Em que formato estão os ficheiros?</summary><p>Os ficheiros podem incluir formatos como ZIP, PSD, AI, AEP, PRPROJ, MP4, WAV e outros, dependendo do recurso. Consulte a descrição de cada pack e os formatos realmente fornecidos.</p></details>
+        <details><summary>Os recursos são compatíveis com qualquer versão?</summary><p>A compatibilidade depende do software, versão, plugins e sistema operativo. Verifique os requisitos dos ficheiros antes de comprar e mantenha esta resposta alinhada com os recursos entregues.</p></details>
+        <details><summary>Posso usar os recursos em trabalhos para clientes?</summary><p>A licença de utilização depende dos direitos associados a cada recurso. Informe claramente se a licença permite uso comercial, redistribuição ou utilização em projetos de clientes. Não redistribua ficheiros de terceiros sem autorização.</p></details>
+        <details><summary>Como funciona o suporte?</summary><p>Indique aqui o canal de suporte, horário e prazo médio de resposta que realmente consegue oferecer. Contacto: [INSERIR EMAIL OU WHATSAPP].</p></details>
+        <details><summary>O pagamento é seguro?</summary><p>O pagamento é processado na página de checkout Escalepay. Os dados de cartão devem ser inseridos apenas no checkout seguro, não nesta landing page.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="cta-final">
+    <div class="container center">
+      <div class="eyebrow">A sua próxima criação começa aqui</div><h2>Escolha o seu pack e <span class="accent">comece a criar</span></h2>
+      <p>Oferta de lançamento termina em <strong class="timer" id="bottomTimer">00:00:00</strong></p>
+      <div class="offer-grid" style="max-width:820px;margin:28px auto 0;text-align:left">
+        <div class="offer"><h3>PACK ESSENCIAL</h3><div class="old-price">97 USD</div><div class="price">25 USD</div><a class="btn" href="https://checkout.escalepay.com/7066013" target="_blank" rel="noopener">QUERO O ESSENCIAL →</a></div>
+        <div class="offer ultimate"><span class="ribbon">MAIS ESCOLHIDO</span><h3>PACK ULTIMATE</h3><div class="old-price">197 USD</div><div class="price">35 USD</div><a class="btn pulse" href="https://checkout.escalepay.com/8553445" target="_blank" rel="noopener">QUERO O ULTIMATE →</a></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footgrid">
+      <div><h3 id="footerBrand">[NOME DA LOJA]</h3><p>Recursos digitais para edição de vídeo e design gráfico.</p><p>Contacto: happycreative952@gmail.com</p><p style="font-size:.75rem">Aviso: marcas e nomes de software pertencem aos respetivos proprietários. A compatibilidade e os direitos de utilização variam por ficheiro. Venda apenas recursos que tenha direito legal de distribuir.</p></div>
+      <div><b>Informações</b><div class="footlinks" style="margin-top:12px;display:grid"><a href="termos.html">Termos e Condições</a><a href="privacidade.html">Política de Privacidade</a><a href="reembolso.html">Política de Reembolso</a></div></div>
+      <div><b>Compra segura</b><p style="margin-top:12px">🔒 Checkout Escalepay<br>Visa · Mastercard</p></div>
+    </div>
+    <div class="container" style="border-top:1px solid #252525;margin-top:25px;padding-top:18px"><p style="font-size:.75rem;margin:0">© <span id="year"></span> <span id="copyrightBrand">[NOME DA LOJA]</span>. Todos os direitos reservados.</p></div>
+  </footer>
+
+  <div class="sticky-mobile"><div><b>35 USD</b><small>Ultimate Bundle · <span id="stickyTimer">00:00:00</span></small></div><a class="btn pulse" href="https://checkout.escalepay.com/8553445" target="_blank" rel="noopener">COMPRAR AGORA</a></div>
+
+  <div class="modal" id="exitModal" role="dialog" aria-modal="true" aria-labelledby="exitTitle">
+    <div class="modal-box"><button class="modal-close" id="closeModal" aria-label="Fechar">×</button><div class="eyebrow">Antes de sair...</div><h2 id="exitTitle">Ainda pode aproveitar a oferta</h2><p>O preço de lançamento e os bónus estão disponíveis até ao prazo indicado, enquanto houver vagas reais.</p><div class="price" style="font-size:2.5rem">35 USD</div><p>Ultimate Bundle + 3 bónus</p><a class="btn" href="https://checkout.escalepay.com/8553445" target="_blank" rel="noopener">QUERO O ULTIMATE →</a><p style="font-size:.75rem;margin-top:14px">Prazo: <strong class="timer" id="modalTimer">00:00:00</strong></p></div>
+  </div>
+
+  <script>
+    // Listas de conteúdo. Nomes repetidos na descrição original foram consolidados para facilitar leitura.
+    const CATEGORIAS = [
+      {icon:"🎞️",name:"After Effects",items:["Flyers Animados","Motion Bro Plugin","Motion Control Plugin","Animations Studio Plugin","Shapes Animados","Infinity Tools Plugin","Atom X Plugin","FX Monster Plugin","Easy Edit Plugin","MVFX Extension Plugin","RTFX Extension Plugin","Premium Builder Plugin","Action FX Plugin","Big Pack Plugin","Commercial Elements","Character Animation","Mockups Animados","Audio Visualizer","Streaming Visualizer","Icons Animados","Neon Effects Animados","VFX Effects Mini Pack","Sports Templates","Stories Animados","YouTube Pack","Logos Animados"]},
+      {icon:"🎬",name:"Premiere Pro",items:["X-Motion Plugin","Premiere Studio Plugin","Atom X Plugin","YouTube Plugin","Títulos Animados Plugin","Creative Motion Plugin","Transition Pack","Motion Pack Plugin","AVK Presets Plugin","Filmmaker Presets","Studio Planet Presets","Infinity Plugin","Ícones Animados Plugin","Notion Pack Plugin","Kinectpack Plugin","Poster Pack","Multiscreen Plugin","Video Effects Pack","Infinity PR Plugin"]},
+      {icon:"✨",name:"Efeitos VFX",items:["Apocalypse","Prism Pack","Electric","Blockbuster","Cyber City","Space","Motion","Sci-Fi","Martinez","Rain","Retro Film","Infinity","Destruction","Paint","Lumen Light","Slime","Particles","Lens Distortions","Cartoon Laser FX","Dark Magic","Action Essentials","Cinepack","Heroes Powers","Characters","Action Pack"]},
+      {icon:"🔊",name:"Efeitos Sonoros",items:["Assault Weapons","Cars","Cars SUVs","Darkness","Hits Designed","Horror","Trailers Bundle","Harbor Industrial","Horse","Jet Fly","Magic","Mechanicals","Arms Medieval","Nature Essential","Trailer Designed","Close Combat","Concert Debris","Destruction","Guns Bundle","Impulse Sci-Fi","Silencers","Thunder Rain","Toons","Transportation","V8 Cars","Winds of Nature","WW2 Tanks","Fireworks","Baby","Bird of Prey","Brute Force","Canyons","Deciduous Forests","Dogs","Doors","Fire Water","Games Design"]},
+      {icon:"🎨",name:"Pack Design",items:["Social Media Pack","Sublimação","Logos","Florik","Flyers","Letras 3D","Texturas","Canvas","Mockups","Canecas","PNG Imagens","LRC Presets","Brushes","Overlays","Texto 3D","Corel"]},
+      {icon:"🖼️",name:"Photoshop Full Pack",items:["Mais de 1.000 Backgrounds","Mais de 500 PSD editáveis","Mais de 100 GIFs animados","Mais de 50 ferramentas de edição","Mais de 500 Mockups","Mais de 200 cartões de visita","Mais de 100 banners","Mais de 30.000 ícones"]},
+      {icon:"✒️",name:"Super Pack Illustrator",items:["Mais de 5.000 vetores","Mais de 1.000 templates de flyer","Mais de 2.000 templates de logotipos","Mais de 30.000 ícones","Mais de 3.000 cartões de visita","Mais de 200 templates de banner","Mais de 100 layouts de certificados"]},
+      {icon:"🎧",name:"Pack Sounds Completo",items:["Biblioteca de efeitos sonoros","Sons cinematográficos","Ambientes e texturas sonoras","Impactos e transições de áudio"]}
+    ];
+    //const REVIEWS = Array.from({length:10},(_,i)=>({name:"João Gonsalves",job:"Graphic Design",text:"Antes perdia muito tempo à procura de recursos para as minhas edições. Com este pack, tenho muito mais opções e consigo trabalhar melhor.",network:"◉"}));
+    const REVIEWS = [
+  {
+    name: "João M.",
+    role: "Editor de vídeo",
+    location: "Portugal",
+    pack: "Pack Essencial",
+    rating: 5,
+    text: "Antes perdia muito tempo à procura de recursos. Agora tenho várias opções para melhorar as minhas edições."
+  },
+  {
+    name: "Carla S.",
+    role: "Designer gráfica",
+    location: "Brasil",
+    pack: "Pack Ultimate",
+    rating: 5,
+    text: "Gostei da variedade de efeitos visuais e dos recursos de design. O pacote oferece muitas possibilidades criativas."
+  },
+  {
+    name: "Mateus L.",
+    role: "Criador de conteúdo",
+    location: "Brasil",
+    pack: "Pack Essencial",
+    rating: 5,
+    text: "Uma boa biblioteca para quem está a começar. Encontrei materiais que posso utilizar nos meus projetos."
+  },
+  {
+    name: "Vanessa R.",
+    role: "Designer freelancer",
+    location: "Angola",
+    pack: "Pack Ultimate",
+    rating: 5,
+    text: "Os recursos para Photoshop e Illustrator foram os que mais me chamaram a atenção. Tenho mais ferramentas para explorar."
+  },
+  {
+    name: "Carlos P.",
+    role: "Editor freelancer",
+    location: "Portugal",
+    pack: "Pack Essencial",
+    rating: 5,
+    text: "Gostei especialmente dos sons e dos materiais de edição. É muito útil ter tantos recursos reunidos."
+  },
+  {
+    name: "Daniela F.",
+    role: "Social Media Manager",
+    location: "Cabo Verde",
+    pack: "Pack Ultimate",
+    rating: 5,
+    text: "Escolhi o Ultimate pela quantidade de materiais incluídos. É uma opção interessante para quem trabalha com vídeo e design."
+  },
+  {
+    name: "André C.",
+    role: "Estudante de multimédia",
+    location: "Brasil",
+    pack: "Pack Essencial",
+    rating: 5,
+    text: "Encontrei recursos que me ajudam a experimentar novos estilos e desenvolver melhor os meus projetos."
+  },
+  {
+    name: "Beatriz N.",
+    role: "Criadora digital",
+    location: "Brasil",
+    pack: "Pack Ultimate",
+    rating: 5,
+    text: "Os efeitos visuais e os templates são excelentes para explorar novas ideias. Gostei muito da diversidade."
+  },
+  {
+    name: "Ricardo A.",
+    role: "Editor de vídeo",
+    location: "Portugal",
+    pack: "Pack Essencial",
+    rating: 5,
+    text: "É muito mais prático ter vários materiais organizados numa biblioteca, em vez de procurar cada recurso separadamente."
+  },
+  {
+    name: "Sofia M.",
+    role: "Designer e editora",
+    location: "Brasil",
+    pack: "Pack Ultimate",
+    rating: 5,
+    text: "O Ultimate reúne recursos para diferentes tipos de trabalho. Gostei especialmente da variedade de materiais criativos."
+  }
+];
+    
+    const $ = id => document.getElementById(id);
+    $("footerBrand").textContent=CONFIG.NOME_LOJA;$("copyrightBrand").textContent=CONFIG.NOME_LOJA;document.title=CONFIG.NOME_LOJA+" — Ultimate Creative Bundle";
+    $("year").textContent=new Date().getFullYear();
+    $("statsGrid").innerHTML=CONFIG.ESTATISTICAS.map(([n,l])=>`<div class="stat reveal"><b>${n}</b><span>${l}</span></div>`).join("");
+    $("accordionList").innerHTML=CATEGORIAS.map((c,i)=>`<details class="accordion"><summary><span class="acc-icon">${c.icon}</span><span>${c.name}<span class="count">(${c.items.length} itens)</span></span></summary><div class="accordion-content"><div class="item-list">${c.items.map(x=>`<span class="item">${x}</span>`).join("")}</div></div></details>`).join("");
+    $("reviewsGrid").innerHTML=REVIEWS.map(r=>`<article class="review"><div class="stars">★★★★★</div><p>${r.text}</p><b>${r.name}</b><small>${r.job} · ${r.network}</small></article>`).join("");
+    if(CONFIG.MOSTRAR_AVALIACAO_MEDIA){$("averageRating").style.display="block";$("averageRating").textContent="★ "+CONFIG.AVALIACAO_MEDIA;}
+    if(CONFIG.GARANTIA_7_DIAS){$("guaranteeTitle").textContent="Garantia de 7 dias";$("guaranteeText").textContent="Se não ficar satisfeito, solicite reembolso no prazo de 7 dias, conforme as condições da política de reembolso.";}
+    $("essentialCheckout").href=CONFIG.CHECKOUT_ESSENCIAL;$("ultimateCheckout").href=CONFIG.CHECKOUT_ULTIMATE;
+    document.querySelectorAll('a[href="https://checkout.escalepay.com/7066013"]').forEach(a=>a.href=CONFIG.CHECKOUT_ESSENCIAL);
+    document.querySelectorAll('a[href="https://checkout.escalepay.com/8553445"]').forEach(a=>a.href=CONFIG.CHECKOUT_ULTIMATE);
+    // Preenche os quatro players: Base64 incorporado ou MP4 local na pasta /videos.
+    for(let i=0;i<4;i++){const player=$("vsl"+(i+1));if(CONFIG.VSL_BASE64[i])player.src=CONFIG.VSL_BASE64[i];else player.src="vsl-"+(i+1)+".mp4";}
+    // Contagem regressiva: não reinicia automaticamente. Depois do prazo, mostra oferta terminada.
+    const deadline=new Date(CONFIG.DATA_FIM).getTime();
+    function updateTimer(){
+      const left=deadline-Date.now();let out="00:00:00";
+      if(left>0){const d=Math.floor(left/86400000),h=Math.floor(left%86400000/3600000),m=Math.floor(left%3600000/60000),s=Math.floor(left%60000/1000);out=(d?d+"d ":"")+[h,m,s].map(n=>String(n).padStart(2,"0")).join(":");}
+      else out="OFERTA TERMINADA";
+      ["topTimer","bottomTimer","stickyTimer","modalTimer"].forEach(id=>$(id).textContent=out);
+      if(left<=0){document.querySelectorAll(".topbar").forEach(el=>el.innerHTML='OFERTA DE LANÇAMENTO <strong>TERMINADA</strong>');}
+    }
+    updateTimer();setInterval(updateTimer,1000);
+    // Escassez baseada apenas nos números reais editados na CONFIG.
+    const remaining=Math.max(0,Number(CONFIG.VAGAS_RESTANTES)||0),total=Math.max(0,Number(CONFIG.VAGAS_TOTAIS)||0);
+    $("vacancyText").textContent=remaining+" vagas";
+    $("vacancyBar").style.width=(total>0?Math.min(100,Math.max(0,(total-remaining)/total*100)):0)+"%";
+    if(remaining===0){$("vacancyText").textContent="Bónus esgotados";$("vacancyBar").style.width="100%";}
+    // Animação discreta ao rolar.
+    const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add("visible");observer.unobserve(e.target);}}),{threshold:.12});
+    document.querySelectorAll(".reveal").forEach(el=>observer.observe(el));
+    // Exit intent apenas em dispositivos com ponteiro fino; uma única apresentação por sessão.
+    let exitShown=false;
+    document.addEventListener("mouseout",e=>{if(e.clientY<=0&&!exitShown&&window.matchMedia("(pointer:fine)").matches&&sessionStorage.getItem("exitSeen")!=="1"){exitShown=true;sessionStorage.setItem("exitSeen","1");$("exitModal").classList.add("show");}});
+    $("closeModal").addEventListener("click",()=>$("exitModal").classList.remove("show"));
+    $("exitModal").addEventListener("click",e=>{if(e.target===$("exitModal"))$("exitModal").classList.remove("show");});
+    document.addEventListener("keydown",e=>{if(e.key==="Escape")$("exitModal").classList.remove("show");});
+  </script>
+</body>
+</html>
